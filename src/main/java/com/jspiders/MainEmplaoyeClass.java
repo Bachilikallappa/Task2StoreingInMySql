@@ -19,11 +19,11 @@ public class MainEmplaoyeClass {
 		Employe employe2 = new Employe();
 		Employe employe3 = new Employe();
 		
-//		employe.setId(1001);
-//		employe.setName("Ismail k");
-//		employe.setQualification("BE");
-//		employe.setMail("ismail199@gmail.com");
-//		employe.setPno(8105190);
+		employe.setId(1001);
+		employe.setName("Ismail k");
+		employe.setQualification("BE");
+		employe.setMail("ismail199@gmail.com");
+		employe.setPno(8105190);
 		
 		employe2.setId(1002);
 		employe2.setName("Ravi");
@@ -36,7 +36,7 @@ public class MainEmplaoyeClass {
 		employe3.setQualification("BE");
 		employe3.setMail("Lava20@gmail.com");
 		employe3.setPno(829677);
-//		
+		
 		entityTransaction.begin();
 		//entityManager.persist(employe);
 		entityManager.persist(employe2);
